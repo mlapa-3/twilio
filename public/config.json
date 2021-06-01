@@ -17,11 +17,11 @@
             "inArguments": [
                 {
                   "email": "{{Contact.Default.EmailAddress}}",
-                  "to": "{{Contact.test_DE.phone}}" 
+                  "to": "{{Contact.Attributes.test_DE.phone}}" 
                 }               
             ],
             "outArguments": [],
-            "url": "https://teste-21.herokuapp.com/execute",
+            "url": "https://teste-21.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",

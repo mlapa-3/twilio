@@ -21,7 +21,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://custom-tester.herokuapp.com/execute",
+            "url": "https://teste-21.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -32,7 +32,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "212d1cde-abe5-4750-92a7-b599c6a255d4",
        "save": {
-           "url": "https://custom-tester.herokuapp.com/save",
+           "url": "https://teste-21.herokuapp.com/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -40,7 +40,7 @@
             "timeout": 2000
        },
        "publish": {
-           "url": "https://custom-tester.herokuapp.com/publish",
+           "url": "https://teste-21.herokuapp.com/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -48,7 +48,7 @@
             "timeout": 2000
        },
        "validate": {
-           "url": "https://custom-tester.herokuapp.com/validate",
+           "url": "https://teste-21.herokuapp.com/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -56,7 +56,7 @@
             "timeout": 2000
        },
        "stop": {
-           "url": "https://custom-tester.herokuapp.com/stop",
+           "url": "https://teste-21.herokuapp.com/stop",
             "verb": "POST",
             "body": "",
             "format": "json",

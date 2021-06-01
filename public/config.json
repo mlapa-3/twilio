@@ -21,7 +21,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://teste-21.herokuapp.com/journeybuilder/execute",
+            "url": "https://teste-21.herokuapp.com/execute",
             "verb": "POST",
             "body": "",
             "format": "json",

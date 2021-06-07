@@ -16,7 +16,6 @@
         "execute": {
             "inArguments": [
                 {
-                  "email": "{{Contact.Default.EmailAddress}}",
                   "to": "{{Contact.Attribute.test_DE.phone}}" 
                 }               
             ],
@@ -111,13 +110,6 @@
                             "dataType": "String",
                             "isNullable": false,
                             "direction": "out"   
-                        }
-                    },                    
-                    {
-                        "email": {
-                            "dataType": "Email",
-                            "isNullable": true,
-                            "direction": "out"
                         }
                     }
                 ],

@@ -64,7 +64,11 @@ define([
 
                 if (key === 'body') {
                     $('#messageBody').val(val);
-                }                                                               
+                }
+                
+                if (key === 'phoneNumber') {
+                    $('#phoneNumber').val(val);
+                }
 
             })
         });
@@ -100,7 +104,7 @@ define([
             "authToken": authToken,
             "messagingService": messagingService,
             "body": body,
-            "to": "{{Contact.Attribute.test_DE.phone}}" //<----This should map to your data extension name and phone number column
+            "to": phoneNumber,
         }];
 
         payload['metaData'].isConfigured = true;

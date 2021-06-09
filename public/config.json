@@ -95,7 +95,7 @@
                         }
                     },                    
                     {
-                        "phoneNumber": {
+                        "to": {
                             "dataType": "String",
                             "isNullable": false,
                             "direction": "out"   

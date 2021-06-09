@@ -20,7 +20,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://teste-21.herokuapp.com/journeybuilder/execute",
+            "url": "https://teste-21.herokuapp.com/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -29,7 +29,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "a4e09e26-2cf3-4012-ac41-323b3e797cb5",
+      "applicationExtensionKey": "93168895-62af-49bf-8a86-1b96ffbd32d0",
        "save": {
            "url": "https://teste-21.herokuapp.com/save",
             "verb": "POST",

@@ -14,11 +14,7 @@
     },
     "arguments": {
         "execute": {
-            "inArguments": [
-                {
-                  "to": "{{Contact.Attribute.test_DE.phone}}" 
-                }               
-            ],
+            "inArguments": [],
             "outArguments": [],
             "url": "https://teste-21.herokuapp.com/execute",
             "verb": "POST",
@@ -99,8 +95,8 @@
                         }
                     },                    
                     {
-                        "to": {
-                            "dataType": "Phone",
+                        "phoneNumber": {
+                            "dataType": "String",
                             "isNullable": false,
                             "direction": "out"   
                         }

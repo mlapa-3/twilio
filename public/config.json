@@ -14,12 +14,7 @@
     },
     "arguments": {
         "execute": {
-            "inArguments": [
-                {
-                  "email": "mlapa@deloitte.pt",
-                  "to": "+351919273869" 
-                }               
-            ],
+            "inArguments": [],
             "outArguments": [],
             "url": "https://smssfmc.herokuapp.com/journeybuilder/execute",
             "verb": "POST",

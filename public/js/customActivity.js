@@ -98,13 +98,14 @@ define([
         var authToken = $('#authToken').val();
         var messagingService = $('#messagingService').val();
         var body = $('#messageBody').val();
+        var mobileNmr = $('#mobileNmr').val();
 
         payload['arguments'].execute.inArguments = [{
             "accountSid": accountSid,
             "authToken": authToken,
             "messagingService": messagingService,
             "body": body,
-            "to": phoneNumber,
+            "to": mobileNmr,
         }];
 
         payload['metaData'].isConfigured = true;
